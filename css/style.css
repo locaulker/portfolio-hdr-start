@@ -1,0 +1,30 @@
+:root {
+  --primaryColor: #2a9134;
+  --mainWhite: #f1fffa;
+  --mainTransition: all 1s ease-in-out .2s;
+  --colorHover: #242424;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--mainWhite);
+}
+.icon-top {
+  background-color: var(--primaryColor);
+}
+.icon-top a {
+  color: var(--mainWhite);
+  font-size: 2.5rem;
+  transition: var(--mainTransition);
+}
+.icon-top a:hover {
+  color: var(--colorHover);
+}
+.icon-top h5 {
+  color: var(--mainWhite);
+}
